@@ -8,6 +8,8 @@ df= pd.read_csv('data/vehicles_us.csv')
 
 st.header('Bienvenido a esta aplicacion de graficos', divider='orange' )
 
+st.header('Con este boton crearas un grafico de histograma sobre la relacion del odometro y los precios de los autos')
+
 #creamos el primer grafico
 boton_de_histograma = st.button('Construir un histograma')
 
@@ -40,7 +42,7 @@ if boton_de_scatterplot:
 
 	st.plotly_chart(fig, use_container_width=True)
 
-
+st.header('Con el siguiente checkbox se crea un garfico de la caja para ver la distribucion de precios de acuerdo al tipo de auto')
 #Creamos un tercer grafico 
 
 boton_de_grfico_de_caja= st.checkbox('Este botn crea un grafico de caja')
