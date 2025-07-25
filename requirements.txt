@@ -1,0 +1,5 @@
+#these are required libraries in order to get app working 
+pandas 
+plotly
+streamlit
+[
