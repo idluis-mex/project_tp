@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.graph_objects as go 
 
 
-df= pd.read_csv('/Users/hotelkante/Desktop/learning/proyecto_tt/project_tp/data/vehicles_us.csv')
+df= pd.read_csv('data/vehicles_us.csv')
 
 
 st.header('Bienvenido a esta aplicacion de graficos', divider='orange' )
